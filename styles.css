@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 75), rgb(43, 43, 43));
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 180px;
+    height: 90px;
+    border: 2px solid black;
+    font-size: 32px;
+    color: white;
+    background-image: linear-gradient(to top, rgb(39, 39, 39), rgb(66, 66, 233));
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000;
+    cursor: pointer;
+}
